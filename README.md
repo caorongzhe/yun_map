@@ -9,11 +9,6 @@
 ​	2、三维地图展示  http://127.0.0.1/mapEditor
 
 
-
-image-20191227114429998.png
-
-
-
 ```
  安装依赖 npm install
 ```
