@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+    color: #a72525;
+    margin-top: 10%;
+}
+
+
+.mapLabels {
+    font-size: 10px;
+    text-align:center;
+    text-shadow:#ffffff 1px 0 0,#ffffff 0 1px 0,#ffffff -1px 0 0,#ffffff 0 -1px 0;
+}
+
+.mapLabels img{
+    width: 15px;
+    height: 15px;
+}
+
+@media screen {
+    .mapLabels .pubPoints img {
+        width: 25px;
+        height: 25px;
+        -webkit-border-radius: 25px;
+        border: 2px #a72525 solid;
+    }
+}
+
+
+.floorsUI, .testButton
+{
+    position: absolute;;
+    list-style: none;
+    padding: 0;
+    left: 0px;
+}
+
+.floorsUI{
+    top:100px;
+}
+
+.testButton{
+    margin-left: auto;
+    margin-right: 2px;
+    top: 100px;
+    float:right;
+    width: 100%;
+}
+.testButton ul{
+    float: right;
+}
+.floorsUI li, .testButton li{
+    max-width: 100px;
+    padding: 10px;
+    background-color: #e8e8e8 ;
+    border: 1px solid #bbbbbb;
+    text-align: center;
+    list-style-type:none;
+    z-index: 999  !important;
+
+}
+
+.floorsUI .selected{
+    background-color: #cccccc !important;
+}
+
+
+.label {
+    color: #000;
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+
+.enlarge{
+    z-index: 9;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: auto 40%;
+    width: 280px;
+    text-align: center;
+
+    height: 280px;
+}
+
+.details{
+    z-index: 9;
+}
+
+.hidden{
+    display:none;
+}
+.show{
+    display:initial;
+}
+
+
+body {
+    background-repeat:no-repeat;
+    background-origin:content-box;
+    background-position: center;
+    background-attachment:fixed;
+
+    overflow:hidden;
+}
+

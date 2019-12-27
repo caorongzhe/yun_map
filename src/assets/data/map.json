@@ -1,0 +1,115 @@
+{
+    "data" : {
+        "name" : "来福大酒店",
+        "address" : "幸福大街",
+        "remark" : "",
+        "outline" : "整栋楼的地形[]",
+        "storey": [
+            {
+                "_id" : 0,
+                "name" : "爱生活",
+                "tier": "1",
+                "map" : "",
+                "floor" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]],
+                "public" : [
+                    {
+                        "_id" : 0,
+                        "name" : "ATM",
+                        "icon" : "",
+                        "coord" : [56,98],
+                        "isShow" : true
+                    },
+                    {
+                        "name" : "TOILET",
+                        "icon" : "",
+                        "coord" : [6,38],
+                        "isShow" : true
+                    }
+                ],
+                "shops" : [
+                    {
+                        "_id" : 10,
+                        "shopNo" : "x000",
+                        "name" : "周黑鸭",
+                        "name_us" : "ZHY",
+                        "icon" : "",
+                        "picture" : "",
+                        "isShow" : true,
+                        "category" : "",
+                        "color" : "#cdaddd",
+                        "checked" : true,
+                        "remark" : "",
+                        "outline" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]]
+                    },
+                    {
+                        "_id" : 10,
+                        "shopNo" : "x000",
+                        "name" : "留福鸭",
+                        "name_us" : "LFY",
+                        "icon" : "",
+                        "picture" : "",
+                        "isShow" : true,
+                        "category" : "",
+                        "color" : "#cdaddd",
+                        "checked" : true,
+                        "remark" : "",
+                        "outline" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]]
+                    }
+                ]
+            },
+            {
+                "_id" : 0,
+                "name" : "爱生活",
+                "tier": "2",
+                "floor" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]],
+                "public" : [
+                    {
+                        "name" : "ATM",
+                        "icon" : "",
+                        "coord" : [56,98],
+                        "isShow" : true
+                    },
+                    {
+                        "name" : "TOILET",
+                        "icon" : "",
+                        "coord" : [6,38],
+                        "isShow" : true
+                    }
+                ],
+                "shops" : [
+                    {
+                        "_id" : 10,
+                        "shopNo" : "x000",
+                        "name" : "周黑鸭",
+                        "name_us" : "ZHY",
+                        "icon" : "",
+                        "picture" : "",
+                        "isShow" : true,
+                        "category" : "",
+                        "color" : "#cdaddd",
+                        "checked" : true,
+                        "remark" : "",
+                        "outline" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]]
+                    },
+                    {
+                        "_id" : 10,
+                        "shopNo" : "x000",
+                        "name" : "留福鸭",
+                        "name_us" : "LFY",
+                        "icon" : "",
+                        "picture" : "",
+                        "isShow" : true,
+                        "category" : "",
+                        "color" : "#cdaddd",
+                        "checked" : true,
+                        "remark" : "",
+                        "outline" : [[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45],[12,45]]
+                    }
+                ]
+            }
+        ]
+    }
+
+}
+
+
